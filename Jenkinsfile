@@ -7,7 +7,7 @@ pipeline {
         terraform 'tf'
     }
     environment {
-        IMAGE_NAME = "selmanfettahoglu:java-maven-${BUILD_NUMBER}"
+        IMAGE_NAME = "selmanfettahoglu/java-maven-${BUILD_NUMBER}"
     }
     stages {
     
